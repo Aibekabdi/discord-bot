@@ -7,7 +7,7 @@ discord bot can work both in guilds and in a private message with him.
 
 1. Help
 
-![Help](images/help.png)
+![Help](mdImages/help.png)
 
 ## How to run
 1. to run this golang bot, write token for discord bot in configs/configs.json, in the botToken field.
