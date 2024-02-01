@@ -4,6 +4,7 @@ This project develops discord bot with commands like reminder and get weather.
 discord bot can work both in guilds and in a private message with him.
 
 ## functionality
+These are examples how to run each commands.
 
 1. ***Help***
 
