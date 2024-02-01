@@ -6,8 +6,9 @@ import (
 )
 
 type Conf struct {
-	BotToken string `json:"botToken"`
-	BotPrefix string `json:"botPrefix"`
+	BotToken     string `json:"botToken"`
+	BotPrefix    string `json:"botPrefix"`
+	WeatherToken string `json:"weatherToken"`
 }
 
 func NewConfig(path string) (*Conf, error) {

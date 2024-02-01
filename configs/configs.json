@@ -1,4 +1,5 @@
 {
-    "botToken": "MTIwMjMzMjIxMTc3MzQ1NjQ0NA.G4idgz.XW7rNGoh5TEkpK1wVlNawbPsNy1RYHO6LO2fcU",
-    "botPrefix":"!"
+    "botToken": "",
+    "botPrefix": "!",
+    "weatherToken": "cf1a57090a3eecea91ea2f10b1ef4d41"
 }
