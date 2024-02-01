@@ -5,15 +5,15 @@ discord bot can work both in guilds and in a private message with him.
 
 ## functionality
 
-1. *** Help ***
+1. ***Help***
 
 ![Help](mdImages/help.png)
 
-2. *** Weather ***
+2. ***Weather***
 
 ![Weather](mdImages/weather.png)
 
-2. *** Remind ***
+2. ***Remind***
 
 ![Remind](mdImages/remind.png)
 
