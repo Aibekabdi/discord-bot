@@ -20,6 +20,7 @@ These are examples how to run each commands.
 
 ## How to run
 1. to run this golang bot, write token for discord bot in configs/configs.json, in the botToken field.
+![config](mdImages/config.png)
 ```
 configs/configs.json
 {
