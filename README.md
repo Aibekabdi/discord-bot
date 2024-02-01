@@ -14,7 +14,7 @@ These are examples how to run each commands.
 
 ![Weather](mdImages/weather.png)
 
-2. ***Remind***
+3. ***Remind***
 
 ![Remind](mdImages/remind.png)
 
