@@ -5,9 +5,17 @@ discord bot can work both in guilds and in a private message with him.
 
 ## functionality
 
-1. Help
+1. *** Help ***
 
 ![Help](mdImages/help.png)
+
+2. *** Weather ***
+
+![Weather](mdImages/weather.png)
+
+2. *** Remind ***
+
+![Remind](mdImages/remind.png)
 
 ## How to run
 1. to run this golang bot, write token for discord bot in configs/configs.json, in the botToken field.

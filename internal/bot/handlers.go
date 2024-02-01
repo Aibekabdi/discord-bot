@@ -83,7 +83,6 @@ func (b *Bot) remindmeHandler(s *discordgo.Session, m *discordgo.MessageCreate, 
 		}
 		return
 	}
-
 	timeStr := args[len(args)-1]
 	// parsing string time to time
 	remindTime, err := time.Parse("15:04", timeStr)
