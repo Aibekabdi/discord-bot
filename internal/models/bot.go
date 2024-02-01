@@ -6,21 +6,22 @@ const (
 List of available commands:
 1. !help - Displays a list of all available commands and their descriptions.
 2. !weather <city> - Get current weather information for the specified city.
-3. !language <target_language> <message> - Translate the message into the specified language.
-
-Unique features:
-- Weather: The !weather command allows you to check the current weather in the specified location.
 	Usage example:
-	 !weather Moscow
-
-- Language Translation: The !language command translates your message into the specified language.
-	Usage example:
-	 !language es Hello, how are you?   or
-	 !language english Hello, how are you? (Translation to English)
+***	 !weather Almaty ***
+3. !remindme <time> - Set a reminder for yourself at a specific time. 
+The <time> should be in the format "15:04" (24-hour clock). 
+	Usage example: 
+***	 !remindme go to football 18:30 ***
 	`
 	WeatherHelp = `
 !weather <city> - Get current weather information for the specified city.
 	Usage example:
-	 !weather Moscow
-	`
+	 !weather Almaty
+`
+	ReminderHelp = `
+!remindme <reason for reminding> <time> - Set a reminder for yourself at a specific time. 
+The <time> should be in the format "15:04" (24-hour clock). 
+	Usage example: 
+***	 !remindme go to football 18:30 ***
+`
 )

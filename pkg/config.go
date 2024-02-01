@@ -5,11 +5,13 @@ import (
 	"os"
 )
 
-type Conf struct {
-	BotToken     string `json:"botToken"`
-	BotPrefix    string `json:"botPrefix"`
-	WeatherToken string `json:"weatherToken"`
-}
+type (
+	Conf struct {
+		BotToken     string `json:"botToken"`
+		BotPrefix    string `json:"botPrefix"`
+		WeatherToken string `json:"weatherToken"`
+	}
+)
 
 func NewConfig(path string) (*Conf, error) {
 	var newConfig Conf

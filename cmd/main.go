@@ -14,6 +14,7 @@ import (
 )
 
 func main() {
+
 	// Saving logs into file
 	file, err := os.OpenFile("logfile.txt", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
 	if err != nil {
@@ -27,6 +28,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("error occured while getting configs from file: %v", err)
 	}
+
 	services := service.NewService()
 	// Creating a new struct with Discord bot session
 	b := bot.NewBot(conf, services)

@@ -6,6 +6,7 @@ import (
 	"net/http"
 )
 
+// format to use url
 const weatherUrl = "http://api.openweathermap.org/data/2.5/weather?q=%s&appid=%s"
 
 type WeatherService struct {
